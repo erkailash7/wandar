@@ -44,7 +44,7 @@
 			
 			<tr>
 			<th>  
-			Not yes Register
+			Not yet Register , Plese 1st Register
 			</th>
 			<th>  
 			<input type = "button" value ="Add User" onclick="window.location.href= 'addUser'; return false;" /> 
