@@ -15,7 +15,7 @@
 
 
 <div id = "container">
-	<h4> Add New Note  </h4>
+	<h4> Add/Update the Note  </h4>
 	<div id = "content">
 		
 		 <p style="color: red">  ${errorMessage} </p>
