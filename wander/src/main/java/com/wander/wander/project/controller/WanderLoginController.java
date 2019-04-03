@@ -83,7 +83,7 @@ public class WanderLoginController {
 	}
 	
 	@PostMapping("/saveNote")
-	public String saveNote(@ModelAttribute("user") Note note,  Model model) {
+	public String saveNote(@ModelAttribute("note") Note note,  Model model) {
 		String errorMessage;
 		try {
 			if(note.getTitle()  == null || note.getTitle() == "") {
