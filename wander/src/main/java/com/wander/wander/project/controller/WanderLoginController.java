@@ -112,13 +112,13 @@ public class WanderLoginController {
 		return "redirect:/listNotes";
 	}
 	@PostMapping("/saveUser")
-	public String saveStudent(@ModelAttribute("user") User user) {
+	public String saveUser(@ModelAttribute("user") User user) {
 		userService.addUser(user);
 		return "redirect:/listNotes";
 	}
 	
 	@GetMapping("/listNotes")
-	public String listCustomer(Model model) {
+	public String listOfNotes(Model model) {
 		List<Note> notes = userService.getNotesCurrentUser();
 		model.addAttribute("notes", notes);
 		return "list-user";
